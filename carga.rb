@@ -1,5 +1,5 @@
 class Carga < ActiveRecord::Base
-
+  # ESTO ES UN COMMIT
   def self.crear(numero, producto, monto)
     Rails.logger.debug "Consultando por #{numero} (#{producto}), $#{monto}"
     carga = Carga.new
